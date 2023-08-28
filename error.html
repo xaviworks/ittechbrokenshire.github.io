@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glassmorphism Login Form | CodingNepal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <form class="login-form" method="post" action="login.php">
+      <h2>Login</h2>
+        <div class="input-field">
+        <input type="text" name="username" required>
+        <label>Enter your email</label>
+      </div>
+      <div class="input-field">
+        <input type="password" name="password" required>
+        <label>Enter your password</label>
+      </div>
+      <button type="submit">Log In</button>
+      <div class="error-message">
+  <p style="color: red;">Incorrect username or password. Please try again.</p>
+</div>
+
+
+      <div class="register">
+        <p>Don't have an account? <a href="#">Contact xavi</a></p>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
